@@ -1,6 +1,6 @@
 {
-  "name": p4it-kft/yii2-angularjs",
-  "type": "library",
+  "name": "p4it-kft/yii2-angularjs",
+  "type": "yii2-extension",
   "description": "The assets bundle of Angular.js for Yii2.",
   "keywords": ["angular", "angularjs", "angular.js", "yii", "yii2"],
   "license": "BSD-3-Clause",
@@ -10,7 +10,7 @@
       "email": "orlov@tesjin.ru",
       "homepage": "http://www.tesjin.ru",
       "role": "Developer"
-    }.
+    },
     {
       "name": "Péter Papp",
       "email": "papp.peter@p4it.hu",
@@ -24,11 +24,16 @@
     "source": "https://github.com/p4it-kft/yii2-angularjs"
   },
   "require": {
-    "php": ">=5.6.0"
+    "php": ">=7.1.0",
+    "yiisoft/yii2": "~2.0"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
   },
   "autoload": {
     "psr-4": {
-      "yii\\angularjs\\": ""
+      "p4it\\angularjs\\": ""
     }
   }
 }

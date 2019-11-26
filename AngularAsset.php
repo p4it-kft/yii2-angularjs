@@ -5,7 +5,7 @@
  * @license BSD-3-Clause
  */
 
-namespace yii\angularjs;
+namespace p4it\angularjs;
 
 use yii\web\AssetBundle;
 
@@ -13,6 +13,7 @@ use yii\web\AssetBundle;
  * This asset bundle provides the [angular javascript library](https://angularjs.org/)
  *
  * @author Vladislav Orlov <orlov@tesjin.ru>
+ * @author Peter Papp <papp.peter@p4it.hu>
  */
 class AngularAsset extends AssetBundle
 {
